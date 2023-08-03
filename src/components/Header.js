@@ -53,7 +53,7 @@ function Header() {
             </g>
           </svg>
         </button>
-        <div className="block w-screen absolute hamburgerMenuList top-[70px] left-0 pb-64">
+        <div className="block w-screen absolute hamburgerMenuList top-[70px] left-0 pb-64 ">
           <ul>
             <li>
               <button>HOW WE WORK</button>

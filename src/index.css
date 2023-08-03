@@ -7,8 +7,16 @@
   font-style: normal;
   font-weight: 400;
   src: local(""),
-    url("../src/fonts/dmserifdisplay-regular-webfont.woff2") format("woff2"),
-    url("../src/fonts/dmserifdisplay-regular-webfont.woff") format("woff");
+    url("../src/fonts/dmserifdisplay-regular-webfont.woff2") format("truetype"),
+    url("../src/fonts/dmserifdisplay-regular-webfont.woff") format("truetype");
+}
+
+@font-face {
+  font-family: "Karla";
+  font-style: normal;
+  font-weight: 400;
+  src: local(""), url("../src/fonts/Karla-Regular.ttf") format("truetype"),
+    url("../src/fonts/Karla-Bold.ttf") format("truetype");
 }
 
 @layer base {
@@ -29,7 +37,7 @@
   }
 
   h2 {
-    @apply font-dm_Serif text-2xl;
+    @apply font-dm_Serif text-2xl pb-2;
   }
 
   li button {
@@ -53,6 +61,14 @@
 }
 
 @layer components {
+  .footer {
+    @apply bg-very_light_gray;
+  }
+
+  .footer a {
+    @apply py-1;
+  }
+
   .hamburgerMenuList {
     @apply bg-very_Dark_Violet text-center pr-20 pl-16 pb-10;
   }
@@ -62,7 +78,7 @@
   }
 
   .hamburgerMenuList li button {
-    @apply text-white border-none block w-full;
+    @apply text-white border-none block w-full tracking-widest;
   }
 
   .hamburgerMenuList li button:hover {
@@ -70,15 +86,18 @@
   }
 
   .purple {
-    @apply bg-dark_Violet text-white py-20 px-5;
+    @apply bg-dark_Violet text-white pt-20 pb-28 px-5;
   }
 
   .purple p {
-    @apply text-white;
+    @apply text-white leading-8;
   }
 
-  .help p,
   .help li {
     @apply font-bold text-sm tracking-widest;
+  }
+
+  .help p {
+    @apply font-bold text-sm tracking-widest pb-6;
   }
 }

@@ -1,11 +1,17 @@
 import React from "react";
+import bg_pattern_footer_mobile from "../images/bg-pattern-footer-mobile.svg";
 
 function Footer() {
   return (
     <div>
-      <section>
+      <section className="footer relative pt-20">
+        <img
+          className="absolute top-0 z-0"
+          src={bg_pattern_footer_mobile}
+          alt="bg_pattern_footer_mobile"
+        />
         <svg
-          className="mb-0"
+          className="mb-0 relative z-20"
           xmlns="http://www.w3.org/2000/svg"
           width="112"
           height="18">
@@ -16,7 +22,7 @@ function Footer() {
         </svg>
 
         {/* ---------------------------SOCIAL MEDIA ICONS------------------------------ */}
-        <div>
+        <div className="relative z-20">
           <svg
             className="icons"
             xmlns="http://www.w3.org/2000/svg"
