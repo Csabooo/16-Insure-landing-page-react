@@ -4,7 +4,7 @@ import bg_pattern_footer_mobile from "../images/bg-pattern-footer-mobile.svg";
 function Footer() {
   return (
     <div>
-      <section className="footer relative pt-20">
+      <section className="footer relative py-20">
         <img
           className="absolute top-0 z-0"
           src={bg_pattern_footer_mobile}
