@@ -6,7 +6,7 @@ import pattern_how_we_work_mobile from "../images/bg-pattern-how-we-work-mobile.
 function Main() {
   return (
     <div className="text-center mx-auto ">
-      <img className="mx-auto w-[420px]" src={image_intro} alt="intro_mobile" />
+      <img className="mx-auto " src={image_intro} alt="intro_mobile" />
       {/* --------------Humanizing your insurance------------------------------------------- */}
       <div className="relative purple">
         <h1>Humanizing your insurance.</h1>
@@ -19,7 +19,7 @@ function Main() {
           VIEW PLANS
         </a>
         <img
-          className="absolute right-0 top-[390px]"
+          className="absolute right-0 top-[370px]"
           src={pattern_intro_right_mobile}
           alt="pattern_intro_right_mobile"></img>
       </div>
