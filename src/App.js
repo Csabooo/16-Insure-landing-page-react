@@ -7,7 +7,7 @@ import Attribution from "./components/Attribution";
 
 function App() {
   return (
-    <div className="mx-auto w-[320px]">
+    <div className="mx-auto ">
       <Header />
       <Main />
       <Footer />
