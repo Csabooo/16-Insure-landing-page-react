@@ -19,7 +19,7 @@ function Main() {
           VIEW PLANS
         </a>
         <img
-          className="absolute right-0 top-[420px]"
+          className="absolute right-0 top-[390px]"
           src={pattern_intro_right_mobile}
           alt="pattern_intro_right_mobile"></img>
       </div>
