@@ -8,7 +8,7 @@ function Main() {
     <div className="text-center mx-auto ">
       <img className="mx-auto" src={image_intro} alt="intro_mobile" />
       {/* --------------Humanizing your insurance------------------------------------------- */}
-      <div className="purple">
+      <div className="relative purple">
         <h1>Humanizing your insurance.</h1>
         <p>
           Get your life insurance coverage easier and faster. We blend our
@@ -19,7 +19,7 @@ function Main() {
           VIEW PLANS
         </a>
         <img
-          className="absolute right-0 top-[870px]"
+          className="absolute right-0 top-[420px]"
           src={pattern_intro_right_mobile}
           alt="pattern_intro_right_mobile"></img>
       </div>
