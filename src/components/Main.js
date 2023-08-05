@@ -1,6 +1,7 @@
 import React from "react";
 import image_intro from "../images/image-intro-mobile.jpg";
 import pattern_intro_right_mobile from "../images/bg-pattern-intro-right-mobile.svg";
+import pattern_intro_left_mobile from "../images/bg-pattern-intro-left-mobile.svg";
 import pattern_how_we_work_mobile from "../images/bg-pattern-how-we-work-mobile.svg";
 
 function Main() {
@@ -9,7 +10,7 @@ function Main() {
       <img className="mx-auto w-full" src={image_intro} alt="intro_mobile" />
       {/* --------------Humanizing your insurance------------------------------------------- */}
       <div className="relative purple">
-        <h1>Humanizing your insurance.</h1>
+        <h1 className="relative z-40">Humanizing your insurance.</h1>
         <p>
           Get your life insurance coverage easier and faster. We blend our
           expertise and technology to help you find the plan that's right for
@@ -18,6 +19,10 @@ function Main() {
         <a className="button" href="#">
           VIEW PLANS
         </a>
+        <img
+          className="absolute left-0 top-0"
+          src={pattern_intro_left_mobile}
+          alt="pattern_intro_right_mobile"></img>
         <img
           className="absolute right-0 top-[370px]"
           src={pattern_intro_right_mobile}
