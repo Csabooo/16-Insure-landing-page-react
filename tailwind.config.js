@@ -2,7 +2,7 @@
 module.exports = {
   content: ["./src/**/*.{js,jsx,ts,tsx}"],
   theme: {
-    fontSize: {
+    /*  fontSize: {
       sm: "0.8rem",
       base: "1rem",
       xl: "1.25rem",
@@ -11,7 +11,7 @@ module.exports = {
       "4xl": "2.441rem",
       "5xl": "3.052rem",
       "6xl": "3.75rem",
-    },
+    }, */
     extend: {
       fontFamily: {
         /*### Headings*/

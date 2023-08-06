@@ -25,7 +25,11 @@
   }
 
   a.button {
-    @apply inline-block mt-8 px-6 py-2 border-2 border-white border-solid font-normal;
+    @apply inline-block mt-8 px-6 py-2 border-2 border-white border-solid font-normal tracking-widest;
+  }
+
+  a.button_bottom {
+    @apply inline-block  px-6 py-2 border-2 border-white border-solid font-normal relative tracking-widest;
   }
 
   html {
@@ -33,26 +37,27 @@
   }
 
   h1 {
-    @apply font-dm_Serif text-4xl;
+    @apply font-dm_Serif text-4xl xl:text-8xl xl:text-left;
   }
 
   h2 {
-    @apply font-dm_Serif text-2xl pb-2;
+    @apply font-dm_Serif text-2xl pb-2 xl:py-10 xl:text-4xl;
   }
 
   li button {
-    @apply inline-block mt-8 px-6 py-2 border-2 border-white border-solid font-normal;
+    @apply inline-block mt-8 px-6 py-2 border-2 border-white border-solid font-normal xl:py-0 xl:mt-0;
   }
 
   p {
-    @apply text-dark_Grayish_Violet;
+    @apply text-dark_Grayish_Violet xl:text-xl;
   }
+
   section {
     @apply pt-10;
   }
 
   svg {
-    @apply mx-0 inline-block mb-10;
+    @apply mx-0 inline-block mb-10 xl:mb-0;
   }
 
   svg.icons {
@@ -86,7 +91,7 @@
   }
 
   .purple {
-    @apply bg-dark_Violet text-white pt-20 pb-28 px-5;
+    @apply bg-dark_Violet text-white pt-20 pb-28 px-5 xl:pb-6;
   }
 
   .purple p {
@@ -94,10 +99,18 @@
   }
 
   .help li {
-    @apply font-bold text-sm tracking-widest;
+    @apply font-bold text-sm tracking-widest xl:pt-3;
   }
 
   .help p {
     @apply font-bold text-sm tracking-widest pb-6;
+  }
+
+  .desktop_nav button {
+    @apply text-dark_Grayish_Violet py-2 font-bold tracking-widest;
+  }
+
+  .desktop_nav button:hover {
+    @apply border-very_Dark_Violet border-solid text-very_Dark_Violet;
   }
 }
