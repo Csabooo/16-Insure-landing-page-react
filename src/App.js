@@ -7,7 +7,7 @@ import Attribution from "./components/Attribution";
 
 function App() {
   return (
-    <div className="flex flex-col mx-auto">
+    <div className="flex flex-col mx-auto overflow-hidden ">
       <Header />
       <Main />
       <Footer className="xl:mx-auto" />

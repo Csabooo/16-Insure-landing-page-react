@@ -53,7 +53,7 @@ function Header() {
             </g>
           </svg>
         </button>
-        <div className="block w-screen absolute hamburgerMenuList top-[70px] left-0 pb-64 z-40 ">
+        <div className="block w-screen absolute hamburgerMenuList top-[70px] left-0 pb-64 z-30 ">
           <ul>
             <li>
               <button>HOW WE WORK</button>
@@ -101,8 +101,8 @@ function Header() {
       </div>
       {/*       ------------------------------------NAV DESKTOP----------------------------------------------------------
        */}
-      <div className="hidden justify-between py-5 xl:flex xl:flex-row xl:mx-auto px-20">
-        <div className="flex flex-col justify-center">
+      <div className="hidden justify-between py-5 xl:flex xl:flex-row xl:mx-auto px-28">
+        <div className="flex flex-col justify-center ml-4">
           <svg
             className="mb-0"
             xmlns="http://www.w3.org/2000/svg"

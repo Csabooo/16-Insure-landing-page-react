@@ -11,7 +11,7 @@ import pattern_how_we_work_desktop from "../images/bg-pattern-how-we-work-deskto
 function Main() {
   return (
     <div className="text-center mx-auto xl:mx-auto xl:w-screen ">
-      <div className="xl:purple xl:relative xl:mx-auto">
+      <div className="xl:purple xl:relative xl:mx-auto ">
         <img
           className="mx-auto w-full xl:hidden"
           src={image_intro}
@@ -42,13 +42,13 @@ function Main() {
         </div>
 
         {/* --------------Humanizing your insurance DESKTOP------------------------------------------- */}
-        <div className="hidden purple mx-auto xl:flex xl:mx-auto xl:px-28">
+        <div className="hidden purple mx-auto xl:flex xl:px-28">
           <img
             className="absolute right-0 top-0 z-20 xl:max-w-[25%]"
             src={pattern_intro_right_desktop}
             alt="pattern_intro_right_desktop"></img>
           <img
-            className="absolute left-0 top-[400px] z-20 xl:max-w-[15%]"
+            className="absolute left-0 top-[360px] z-20 xl:max-w-[15%]"
             src={pattern_intro_left_desktop}
             alt="pattern_intro_left_desktop"></img>
           <div className="flex flex-row relative mx-auto pb-0">
