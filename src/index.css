@@ -25,7 +25,7 @@
   }
 
   a.button {
-    @apply inline-block mt-8 px-6 py-2 border-2 border-white border-solid font-normal tracking-widest;
+    @apply inline-block mt-6 px-6 py-2 border-2 border-white border-solid font-normal tracking-widest;
   }
 
   a.button_bottom {
@@ -37,7 +37,7 @@
   }
 
   h1 {
-    @apply font-dm_Serif text-4xl xl:text-8xl xl:text-left;
+    @apply font-dm_Serif text-4xl xl:text-6xl xl:text-left;
   }
 
   h2 {
@@ -49,7 +49,7 @@
   }
 
   p {
-    @apply text-dark_Grayish_Violet xl:text-xl;
+    @apply text-dark_Grayish_Violet xl:text-base;
   }
 
   section {
@@ -91,7 +91,7 @@
   }
 
   .purple {
-    @apply bg-dark_Violet text-white pt-20 pb-28 px-5 xl:pb-6;
+    @apply bg-dark_Violet text-white xl:py-10 pb-28 px-5;
   }
 
   .purple p {

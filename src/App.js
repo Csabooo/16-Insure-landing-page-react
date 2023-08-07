@@ -7,10 +7,10 @@ import Attribution from "./components/Attribution";
 
 function App() {
   return (
-    <div className="mx-auto w-[415px] xl:w-full">
+    <div className="flex flex-col mx-auto">
       <Header />
       <Main />
-      <Footer />
+      <Footer className="xl:mx-auto" />
       <Attribution />
     </div>
   );

@@ -13,11 +13,11 @@ function Footer() {
         />
 
         <img
-          className="hidden absolute top-0 z-0 xl:flex xl:w-4/12"
+          className="hidden absolute top-0 z-0 xl:flex xl:w-5/12"
           src={bg_pattern_footer_desktop}
           alt="bg_pattern_footer_desktop"
         />
-        <div className="xl:flex flex-row justify-between xl:w-[1800px] xl:mx-auto ">
+        <div className="xl:flex flex-row justify-between xl:mx-20">
           <div className="xl:flex flex-col justify-center">
             <svg
               className="mb-0 relative z-20"
@@ -78,8 +78,8 @@ function Footer() {
 
         {/* ----------------------------------- HELP ------------------------- */}
 
-        <hr className="mx-5 xl:w-[1440px] xl:mx-auto" />
-        <div className="xl:grid grid-rows-1 grid-cols-4 xl:mx-auto  xl:w-[1800px] xl:text-left">
+        <hr className="mx-5 xl:mx-auto" />
+        <div className="xl:grid xl:grid-rows-1 xl:grid-cols-4 xl:px-20 xl:text-left">
           {/* ----------------------------------- OUR COMPANY------------------------- */}
           <section className="help">
             <p>OUR COMPANY</p>

@@ -4,89 +4,93 @@ import image_intro_desktop from "../images/image-intro-desktop.jpg";
 import pattern_intro_right_mobile from "../images/bg-pattern-intro-right-mobile.svg";
 import pattern_intro_right_desktop from "../images/bg-pattern-intro-right-desktop.svg";
 import pattern_intro_left_mobile from "../images/bg-pattern-intro-left-mobile.svg";
+import pattern_intro_left_desktop from "../images/bg-pattern-intro-left-desktop.svg";
 import pattern_how_we_work_mobile from "../images/bg-pattern-how-we-work-mobile.svg";
 import pattern_how_we_work_desktop from "../images/bg-pattern-how-we-work-desktop.svg";
 
 function Main() {
   return (
-    <div className="text-center mx-auto">
-      <img
-        className="mx-auto w-full xl:hidden"
-        src={image_intro}
-        alt="intro_mobile"
-      />
-
-      {/* --------------Humanizing your insurance mobile------------------------------------------- */}
-      <div className="relative purple xl:hidden">
-        <h1 className="relative z-40">Humanizing your insurance.</h1>
-        <p>
-          Get your life insurance coverage easier and faster. We blend our
-          expertise and technology to help you find the plan that's right for
-          you. Ensure you and your loved ones are protected.
-        </p>
-        <a className="button" href="#">
-          VIEW PLANS
-        </a>
+    <div className="text-center mx-auto xl:mx-auto xl:w-screen ">
+      <div className="xl:purple xl:relative xl:mx-auto">
         <img
-          className="absolute left-0 top-0"
-          src={pattern_intro_left_mobile}
-          alt="pattern_intro_right_mobile"></img>
-        <img
-          className="absolute right-0 top-[370px]"
-          src={pattern_intro_right_mobile}
-          alt="pattern_intro_right_mobile"></img>
-      </div>
-      {/* --------------Humanizing your insurance DESKTOP------------------------------------------- */}
-      <div className="hidden xl:flex purple mx-auto relative">
-        <img
-          className="absolute right-0 top-0 z-20"
-          src={pattern_intro_right_desktop}
-          alt="pattern_intro_right_desktop"></img>
-        <div className="flex flex-row w-[1800px] mx-auto relative pb-36">
-          <div className="w-6/12 text-left pr-5">
-            <div className="hidden xl:block w-4/12 border-b-2 border-y-white"></div>
+          className="mx-auto w-full xl:hidden"
+          src={image_intro}
+          alt="intro_mobile"
+        />
 
-            <h1 className="py-12">
-              Humanizing <br />
-              your insurance.
-            </h1>
-            <p className="pb-6">
-              Get your life insurance coverage easier and faster. We blend our
-              expertise and technology to help you find the plan that's right
-              for you. Ensure you and your loved ones are protected.
-            </p>
-            <a className="button" href="#">
-              VIEW PLANS
-            </a>
-          </div>
-
-          <div className="w-6/12 dekstop_intro absolute top-0 right-0">
-            {/*     <div className="absolute top-0 right-0"> */}
-            <div className="">
-              <img
-                className="w-full"
-                src={image_intro_desktop}
-                alt="intro_mobile"
-              />
-            </div>
-          </div>
-
-          {/*     <img
-            className="absolute left-0 top-0 xl:hidden"
+        {/* --------------Humanizing your insurance mobile------------------------------------------- */}
+        <div className="relative purple xl:hidden">
+          <h1 className="relative z-30 pt-20 pb-10">
+            Humanizing your insurance.
+          </h1>
+          <p>
+            Get your life insurance coverage easier and faster. We blend our
+            expertise and technology to help you find the plan that's right for
+            you. Ensure you and your loved ones are protected.
+          </p>
+          <a className="button" href="#">
+            VIEW PLANS
+          </a>
+          <img
+            className="absolute left-0 top-0"
             src={pattern_intro_left_mobile}
             alt="pattern_intro_right_mobile"></img>
           <img
-            className="absolute right-0 top-[370px] xl:hidden"
+            className="absolute right-0 top-[370px]"
             src={pattern_intro_right_mobile}
-            alt="pattern_intro_right_mobile"></img> */}
+            alt="pattern_intro_right_mobile"></img>
+        </div>
+
+        {/* --------------Humanizing your insurance DESKTOP------------------------------------------- */}
+        <div className="hidden purple mx-auto xl:flex xl:mx-auto xl:px-28">
+          <img
+            className="absolute right-0 top-0 z-20 xl:max-w-[25%]"
+            src={pattern_intro_right_desktop}
+            alt="pattern_intro_right_desktop"></img>
+          <img
+            className="absolute left-0 top-[400px] z-20 xl:max-w-[15%]"
+            src={pattern_intro_left_desktop}
+            alt="pattern_intro_left_desktop"></img>
+          <div className="flex flex-row relative mx-auto pb-0">
+            <div className="w-6/12 text-left pr-5">
+              <div className="hidden xl:block w-4/12 border-b-2 border-y-white"></div>
+
+              <h1 className="pt-12 pb-4">
+                Humanizing <br />
+                your insurance.
+              </h1>
+              <p className="xl:pb-0">
+                Get your life insurance coverage easier and faster. We blend our
+                expertise and technology to help you find the plan that's right
+                for you. Ensure you and your loved ones are protected.
+              </p>
+              <a className="button" href="#">
+                VIEW PLANS
+              </a>
+            </div>
+
+            <div className="w-6/12 dekstop_intro absolute top-0 right-0">
+              {/*     <div className="absolute top-0 right-0"> */}
+              <div className="">
+                <img
+                  className="w-full"
+                  src={image_intro_desktop}
+                  alt="intro_mobile"
+                />
+              </div>
+            </div>
+          </div>
         </div>
       </div>
 
       {/* --------------We're different----------------------------------------------------- */}
-      <div className="py-32 px-5 xl:pt-72 xl:w-[1800px] xl:mx-auto xl:px-0">
+      <div className="py-32 px-5 xl:pt-72 xl:mx-auto xl:px-20">
+        <div
+          className=" xl:hidden w-4/12 pb-14 border-b-2 border-y-violet-200
+          mx-auto"></div>
         <div className="hidden xl:block w-2/12 pb-14 border-b-2 border-y-violet-200"></div>
 
-        <h1 className="xl:pt-20">We're different</h1>
+        <h1 className="pt-20">We're different</h1>
 
         <div className="xl:flex flex-row xl:text-left xl:pt-20">
           {/* ----------Snappy Process------------------------------*/}
@@ -149,7 +153,7 @@ function Main() {
       </div>
 
       {/* --------------Find out more about MOBILE------------------------------------------- */}
-      <div className="purple mx-5 mb-32 relative flex-row xl:hidden">
+      <div className="purple mx-5 mb-32 py-16 relative flex-row xl:hidden">
         <img
           className="absolute right-0 top-0 xl:hidden"
           src={pattern_how_we_work_mobile}
@@ -163,7 +167,7 @@ function Main() {
       </div>
 
       {/* --------------Find out more about DESKTOP------------------------------------------- */}
-      <div className="hidden xl:flex flex-row justify-between bg-dark_Violet text-white w-[1800px] mx-auto py-20 px-20 relative">
+      <div className="hidden  justify-between bg-dark_Violet text-white py-20 px-20 relative xl:flex xl:flex-row xl:mx-20">
         <img
           className="absolute right-0 top-0 h-full"
           src={pattern_how_we_work_desktop}
