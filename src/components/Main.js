@@ -10,7 +10,7 @@ import pattern_how_we_work_desktop from "../images/bg-pattern-how-we-work-deskto
 
 function Main() {
   return (
-    <div className="text-center mx-auto xl:mx-auto xl:w-screen ">
+    <div className="text-center mx-auto xl:mx-auto xl:w-full">
       <div className="xl:purple xl:relative xl:mx-auto ">
         <img
           className="mx-auto w-full xl:hidden"
