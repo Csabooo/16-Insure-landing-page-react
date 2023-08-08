@@ -84,7 +84,7 @@ function Header() {
     <div>
       {/*       ------------------------------------NAV MOBILE----------------------------------------------------------
        */}
-      <div className="flex justify-between py-5 px-5 xl:hidden">
+      <div className="flex  mx-auto justify-between py-5 px-5 lg:hidden">
         <div className="flex flex-col justify-center">
           <svg
             className="mb-0"
@@ -101,8 +101,8 @@ function Header() {
       </div>
       {/*       ------------------------------------NAV DESKTOP----------------------------------------------------------
        */}
-      <div className="hidden justify-between py-5 xl:flex xl:flex-row xl:mx-auto px-28">
-        <div className="flex flex-col justify-center ml-4">
+      <div className="hidden justify-between py-5 px-28 container lg:flex lg:px-28 lg:mx-auto xl:flex xl:mx-auto ">
+        <div className="flex flex-col justify-center ">
           <svg
             className="mb-0"
             xmlns="http://www.w3.org/2000/svg"
@@ -114,7 +114,7 @@ function Header() {
             />
           </svg>
         </div>
-        <ul className="flex flew-row desktop_nav">
+        <ul className="flex flew-row desktop_nav ">
           <li>
             <button>HOW WE WORK</button>
           </li>

@@ -5,19 +5,19 @@ import bg_pattern_footer_desktop from "../images/bg-pattern-footer-desktop.svg";
 function Footer() {
   return (
     <div>
-      <section className="footer relative py-20 xl:mt-36">
+      <section className="footer relative py-20 md:mt-20 lg:mt-14 xl:mt-36">
         <img
-          className="w-full absolute top-0 z-0 xl:hidden"
+          className="w-full absolute top-0 z-0 md:hidden"
           src={bg_pattern_footer_mobile}
           alt="bg_pattern_footer_mobile"
         />
 
         <img
-          className="hidden absolute top-0 z-0 xl:flex xl:w-5/12"
+          className="hidden absolute top-0 z-0 md:flex xl:w-5/12"
           src={bg_pattern_footer_desktop}
           alt="bg_pattern_footer_desktop"
         />
-        <div className="xl:flex flex-row justify-between xl:mx-20">
+        <div className="xl:flex flex-row justify-between xl:w-[1046px] xl:mx-auto">
           <div className="xl:flex flex-col justify-center">
             <svg
               className="mb-0 relative z-20"
@@ -32,7 +32,7 @@ function Footer() {
           </div>
 
           {/* ---------------------------SOCIAL MEDIA ICONS------------------------------ */}
-          <div className="relative z-20 pb-5">
+          <div className="relative z-20 pb-5 ">
             <svg
               className="icons"
               xmlns="http://www.w3.org/2000/svg"
@@ -79,7 +79,7 @@ function Footer() {
         {/* ----------------------------------- HELP ------------------------- */}
 
         <hr className="mx-5 xl:mx-auto" />
-        <div className="xl:grid xl:grid-rows-1 xl:grid-cols-4 xl:px-20 xl:text-left">
+        <div className="xl:grid xl:grid-rows-1 xl:grid-cols-4 xl:text-left xl:w-[1046px] xl:mx-auto">
           {/* ----------------------------------- OUR COMPANY------------------------- */}
           <section className="help">
             <p>OUR COMPANY</p>

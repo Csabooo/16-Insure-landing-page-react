@@ -10,20 +10,20 @@ import pattern_how_we_work_desktop from "../images/bg-pattern-how-we-work-deskto
 
 function Main() {
   return (
-    <div className="text-center mx-auto xl:mx-auto xl:w-full">
-      <div className="xl:purple xl:relative xl:mx-auto ">
+    <div className="text-center mx-auto xl:mx-auto lg:w-full">
+      <div className=" lg:purple lg:relative mx-auto">
         <img
-          className="mx-auto w-full xl:hidden"
+          className="mx-auto w-full lg:mx-auto lg:hidden"
           src={image_intro}
           alt="intro_mobile"
         />
 
         {/* --------------Humanizing your insurance mobile------------------------------------------- */}
-        <div className="relative purple xl:hidden">
+        <div className="relative purple lg:hidden">
           <h1 className="relative z-30 pt-20 pb-10">
             Humanizing your insurance.
           </h1>
-          <p>
+          <p className="px-5">
             Get your life insurance coverage easier and faster. We blend our
             expertise and technology to help you find the plan that's right for
             you. Ensure you and your loved ones are protected.
@@ -36,30 +36,30 @@ function Main() {
             src={pattern_intro_left_mobile}
             alt="pattern_intro_right_mobile"></img>
           <img
-            className="absolute right-0 top-[370px]"
+            className="absolute right-0 top-[370px] md:top-[230px]"
             src={pattern_intro_right_mobile}
             alt="pattern_intro_right_mobile"></img>
         </div>
 
         {/* --------------Humanizing your insurance DESKTOP------------------------------------------- */}
-        <div className="hidden purple mx-auto xl:flex xl:px-28">
+        <div className="hidden purple mx-auto lg:flex lg:container lg:px-28 xl:px-28">
           <img
-            className="absolute right-0 top-0 z-20 xl:max-w-[25%]"
+            className="absolute right-0 top-0 z-20 lg:max-w-[20%] xl:max-w-[25%]"
             src={pattern_intro_right_desktop}
             alt="pattern_intro_right_desktop"></img>
           <img
-            className="absolute left-0 top-[360px] z-20 xl:max-w-[15%]"
+            className="absolute left-0 top-[450px] lg:top-[300px] xl:top-[450px] z-20 lg:max-w-[10%] xl:max-w-[15%]"
             src={pattern_intro_left_desktop}
             alt="pattern_intro_left_desktop"></img>
           <div className="flex flex-row relative mx-auto pb-0">
-            <div className="w-6/12 text-left pr-5">
-              <div className="hidden xl:block w-4/12 border-b-2 border-y-white"></div>
+            <div className="w-6/12 text-left pr-5 lg:pt-0 xl:pt-0">
+              <div className="hidden lg:block w-4/12 border-b-2 border-y-white"></div>
 
               <h1 className="pt-12 pb-4">
                 Humanizing <br />
                 your insurance.
               </h1>
-              <p className="xl:pb-0">
+              <p className="">
                 Get your life insurance coverage easier and faster. We blend our
                 expertise and technology to help you find the plan that's right
                 for you. Ensure you and your loved ones are protected.
@@ -84,7 +84,7 @@ function Main() {
       </div>
 
       {/* --------------We're different----------------------------------------------------- */}
-      <div className="py-32 px-5 xl:pt-72 xl:mx-auto xl:px-20">
+      <div className="py-32 px-5 xl:pt-72 lg:mx-auto md:container md:mx-auto lg:container lg:px-28 xl:px-28 xl:mx-auto">
         <div
           className=" xl:hidden w-4/12 pb-14 border-b-2 border-y-violet-200
           mx-auto"></div>
@@ -153,7 +153,7 @@ function Main() {
       </div>
 
       {/* --------------Find out more about MOBILE------------------------------------------- */}
-      <div className="purple mx-5 mb-32 py-16 relative flex-row xl:hidden">
+      <div className="purple mx-5 mb-32 py-16 relative overflow-hidden flex-row md:hidden">
         <img
           className="absolute right-0 top-0 xl:hidden"
           src={pattern_how_we_work_mobile}
@@ -167,7 +167,7 @@ function Main() {
       </div>
 
       {/* --------------Find out more about DESKTOP------------------------------------------- */}
-      <div className="hidden  justify-between bg-dark_Violet text-white py-20 px-20 relative xl:flex xl:flex-row xl:mx-20">
+      <div className="hidden justify-between bg-dark_Violet text-white py-20 px-20 relative md:flex md:w-[768px] md:mx-auto lg:flex lg:w-[800px] lg:text-left lg:mx-auto xl:flex xl:flex-row xl:w-[1046px] xl:mx-auto">
         <img
           className="absolute right-0 top-0 h-full"
           src={pattern_how_we_work_desktop}
