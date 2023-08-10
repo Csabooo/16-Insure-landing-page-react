@@ -85,16 +85,16 @@ function Footer() {
             <p>OUR COMPANY</p>
             <ul>
               <li>
-                <a href="#">HOW WE WORK</a>
+                <button>HOW WE WORK</button>
               </li>
               <li>
-                <a href="#">WHY INSURE?</a>
+                <button href="#">WHY INSURE?</button>
               </li>
               <li>
-                <a href="#">CHECK PRICE</a>
+                <button href="#">CHECK PRICE</button>
               </li>
               <li>
-                <a href="#">REVIEWS</a>
+                <button href="#">REVIEWS</button>
               </li>
             </ul>
           </section>
@@ -103,16 +103,16 @@ function Footer() {
             <p>HELP ME</p>
             <ul>
               <li>
-                <a href="#">FAQ</a>
+                <button href="#">FAQ</button>
               </li>
               <li>
-                <a href="#">TERM OF USE</a>
+                <button href="#">TERM OF USE</button>
               </li>
               <li>
-                <a href="#">PRIVACY POLICY</a>
+                <button href="#">PRIVACY POLICY</button>
               </li>
               <li>
-                <a href="#">COOKIES</a>
+                <button href="#">COOKIES</button>
               </li>
             </ul>
           </section>
@@ -121,13 +121,13 @@ function Footer() {
             <p>CONTACT</p>
             <ul>
               <li>
-                <a href="#">SALES</a>
+                <button href="#">SALES</button>
               </li>
               <li>
-                <a href="#">SUPPORT</a>
+                <button href="#">SUPPORT</button>
               </li>
               <li>
-                <a href="#">LIVE CHAT</a>
+                <button href="#">LIVE CHAT</button>
               </li>
             </ul>
           </section>
@@ -136,13 +136,13 @@ function Footer() {
             <p>OTHERS</p>
             <ul>
               <li>
-                <a href="#">CAREERS</a>
+                <button href="#">CAREERS</button>
               </li>
               <li>
-                <a href="#">PRESS</a>
+                <button href="#">PRESS</button>
               </li>
               <li>
-                <a href="#">LICENSES</a>
+                <button href="#">LICENSES</button>
               </li>
             </ul>
           </section>

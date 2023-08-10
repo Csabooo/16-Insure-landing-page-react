@@ -74,8 +74,12 @@
     @apply bg-very_light_gray;
   }
 
-  .footer a {
+  .footer a .footer button {
     @apply py-1;
+  }
+
+  .help button {
+    @apply py-1 border-none font-bold inline-block tracking-widest mt-0;
   }
 
   .hamburgerMenuList {
@@ -103,6 +107,10 @@
   }
 
   .help li {
+    @apply font-bold text-sm tracking-widest xl:pt-3;
+  }
+
+  .help li list button {
     @apply font-bold text-sm tracking-widest xl:pt-3;
   }
 
