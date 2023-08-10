@@ -79,7 +79,7 @@ function Footer() {
         {/* ----------------------------------- HELP ------------------------- */}
 
         <hr className="mx-5 xl:mx-auto" />
-        <div className="xl:grid xl:grid-rows-1 xl:grid-cols-4 xl:text-left xl:w-[1046px] xl:mx-auto">
+        <div className="xl:grid xl:grid-rows-1 xl:grid-cols-4 xl:text-left xl:w-[1046px] xl:mx-auto z-20 relative">
           {/* ----------------------------------- OUR COMPANY------------------------- */}
           <section className="help">
             <p>OUR COMPANY</p>
